@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="external.css">
+    </head>
+    <body>
+        <button onclick="guess()">click</button>
+        <p style="color: brown;">lab one</p>
+        <h1>head1</h1>
+        
+        <script>  
+        function guess(){
+            think = 10
+            console.log(think)
+            var g = prompt("guess ur number ")
+
+            while( think != g){
+                if (g < think){
+                    g= prompt("ur guess is too low guess gain.. ")
+                }else{
+                    g= prompt("ur guess is too hgih guess gain.. ")
+                }
+            }
+            window.alert("ur guess is correct")
+}
+        </script>
+        
+    </body>
+</html>
